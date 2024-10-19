@@ -58,7 +58,7 @@ int main() { // Função principal do programa.
     cin >> escolhaAlgoritmo; // Lê a escolha do usuário.
 
     // Marca o tempo de início da execução.
-    auto start = std::chrono::high_resolution_clock::now();
+    auto start = chrono::high_resolution_clock::now();
 
     // Executa o algoritmo de ordenação de acordo com a escolha do usuário.
     switch(escolhaAlgoritmo) {
@@ -71,9 +71,9 @@ int main() { // Função principal do programa.
     }
 
     // Marca o tempo de fim da execução.
-    auto end = std::chrono::high_resolution_clock::now();
+    auto end = chrono::high_resolution_clock::now();
     // Calcula a duração da execução.
-    std::chrono::duration<double> duration = end - start;
+    chrono::duration<double> duration = end - start;
 
     // Exibe o vetor após a ordenação.
     imprimeVetor(array);
