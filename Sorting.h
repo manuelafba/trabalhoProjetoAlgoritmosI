@@ -1,3 +1,5 @@
+// Alunas: Manuela Araújo e Thaís Martins
+
 #include <iostream>
 
 // Definição do TAD para o vetor
