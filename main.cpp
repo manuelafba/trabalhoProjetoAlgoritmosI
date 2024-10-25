@@ -1,5 +1,5 @@
 #include <iostream> 
-#include "Sorting.cpp" 
+#include "Sorting.h" 
 #include <chrono> // Inclui a biblioteca para medir o tempo de execução
 
 using namespace std; 
